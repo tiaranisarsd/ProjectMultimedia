@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Madara Healthy Drink</title>
+    
+        <link rel="stylesheet" href="assets/styles/style.css" />
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Montserrat:wght@500..600&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+    <style>
+
+        html, body {
+            height: 100%; 
+            margin: 0; 
+        }
+
+        body {
+            display: flex;
+            flex-direction: column; 
+            background-color: #f4fcf3;
+        }
+
+        main {
+           display: block;
+           
+        }
+
+        footer {
+            text-align: center; 
+            padding: 10px 0; 
+        }
+
+        .card {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    min-height: 200px;
+    padding: 20px; 
+    margin: 10px 0; 
+    border-radius: 8px; 
+    background-color: #e8f3e7; 
+
+}
+
+.card-content {
+    display: flex; 
+    flex-direction: row; 
+    width: 100%; 
+}
+
+.featured-image {
+    max-width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.text-content {
+    flex: 1; 
+}
+
+    </style>
+
+</head>
+<body>
+    <header class="navbar-container">
+        <div class="logo">
+            <img src="assets/image/logo.png" alt="KMIC" />
+        </div>
+        <div id="hamburger-btn">&#9776;</div>
+        <nav id="nav-list" class="nav-list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li>
+                    <a href="#">Lainnya <b>v</b></a>
+                    <ul class="dropdown">
+                      <li><a href="#">Review</a></li>
+                      <li><a href="index.html#About-Me">About Me</a></li>
+                      <li><a href="https://wa.me/6287872721210" target="_blank">Contact Me</a></li>
+                    </ul>
+                  </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="card">
+            <div class="card-content">
+            <img src="assets/image/BirPletok.jpg" alt="Bir Pletok" class="featured-image"/>
+            <div class="text-content">
+            <h2>Harga:</h2>
+            <nav class="list-kategori">
+                <ul>
+                    <li>Rp. 15.000</li>
+                </ul>
+            </nav>
+            <h2>Khasiat:</h2>
+            <p style="text-align: justify;"> Bir pletok merupakan salah satu minuman tradisional Betawi yang populer di Jakarta. Meskipun namanya bir, minuman ini tidak mengandung alkohol sama sekali sehingga boleh dikonsumsi anak-anak hingga orang dewasa. Minuman ini terbuat dari rempah dan tanaman rimpang yang sering dijadikan bahan untuk membuat jamu-jamuan. <br>
+                <br>
+                 Minuman khas Betawi ini berkhasiat untuk memperlancar edaran darah, meredakan nyeri lambung, radang sendi, menghangatkan tubuh, baik untuk sistem pencernaan, meredakan migrain, kram, dan masih banyak lagi.</p>
+            <h2>Bahan-bahan:</h2>
+            <div class="list-kategori">
+                <ul>
+                    <li>Jahe</li>
+                    <li>Serai</li>
+                    <li>Gula Aren</li>
+                    <li>Daun Pandan</li>
+                </ul>
+            </div>
+            </div>
+            </div>
+        </article>
+
+        <div class="music-container">
+            <i class="fas fa-pause pause-button" onclick="pauseMusic()"></i> 
+            <i class="fas fa-play play-button" onclick="playMusic()" style="display: none;"></i> 
+            <audio id="audio" src="assets/music/musicfile.mp3" type="audio/mpeg" autoplay></audio>
+          </div>
+    </main>
+
+    <footer>
+        <p>Madara Healthy Drink &#169; 2024.</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+</html>

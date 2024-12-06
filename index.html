@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madara Healthy Drink</title>
+
+    <link rel="stylesheet" href="assets/styles/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Montserrat:wght@500..600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <header class="navbar-container">
+    <div class="logo">
+      <img src="assets/image/logo.png" alt="KMIC" />
+  </div>
+  <!-- <div><h1 style="color: white; font-size: 22px;">Madara<span style="color:#8db9e9;">HealthyDrink</span></h1></div> -->
+  <div id="hamburger-btn">&#9776;</div>
+      <nav id="nav-list" class="nav-list">
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="product.html">Product</a>
+          </li>
+          <li>
+            <a href="#">Lainnya <b>v</b></a>
+            <ul class="dropdown">
+              <li><a href="#">Review</a></li>
+              <li><a href="#About-Me">About Me</a></li>
+              <li><a href="https://wa.me/6287872721210" target="_blank">Contact Me</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <video width="100%" height="250" autoplay muted loop controls>
+                <source src="assets/animasi/animasi.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+          <div class="mySlides fade">
+              <img src="assets/image/Welcome.png" style="width:100%">
+          </div>
+      
+          <div class="mySlides fade">
+              <img src="assets/image/Welcome2.png" style="width:100%">
+          </div>
+      
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    
+      </div>
+        
+      
+      <aside class="card">
+        <article  id="About-Me" class="profile" class="profile card">
+          <header>
+            <h1>Madara Healthy Drink</h1>
+          </header>
+
+          <section>
+            <h3> About Me</h3>
+            <p style="text-align: justify;">
+              Madara Healthy Drink didirikan dengan visi untuk menghadirkan minuman sehat berbahan alami yang kaya akan manfaat kesehatan. Kami percaya bahwa alam menyediakan segala yang dibutuhkan tubuh untuk tetap sehat dan bugar. Oleh karena itu, kami berkomitmen untuk menggunakan bahan-bahan alami berkualitas tinggi dalam setiap produk kami.
+            </p>
+          </section>
+
+          <section>
+            <br>
+            <h3>Social Media</h3>
+            <div class="social-media">
+              <ul>
+                <li><a href="mailto:tiaranisars@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></li>
+                  <li><a href="https://www.instagram.com/madarakitchen/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+          </div>
+          </section>
+          <section>
+            <br>
+            <h3>Location</h3>
+
+            <div class="social-media">
+              <ul>
+                  <li><a href="https://maps.app.goo.gl/mZbe1SfpPc3Jiv39A" target="_blank"><i class="fas fa-map-marker-alt"></i></a></li>
+              </ul>
+              <p>Kayu Manis, Kec. Matraman, Kota Jakarta Timur.</p>
+          </div>
+          </section>
+        </article>
+      </aside>
+
+      <div class="card-container">
+        <article id="BirPletok" class="card product"> 
+          <a href="detailBirPletok.html" style="text-decoration: none; color: inherit;">
+              <h1>Bir Pletok</h1>
+              <img src="assets/image/BirPletok.jpg" alt="BirPletok" class="featured-image"/>
+              <h2>Harga :</h2>
+              <nav class="list-kategori">
+                  <ul>
+                      <li>Rp. 15.000</li>
+                  </ul>
+              </nav>
+          </a>
+      </article>
+
+        <article id="LemonSereh" class="card product">
+          <a href="detailLemonSereh.html" style="text-decoration: none; color: inherit;">
+          <h1>Lemon Sereh</h1>
+          <img src="assets/image/LemonSereh.jpg" alt="LemonSereh" class="featured-image"/>
+          <h2>Harga :</h2>
+          <nav class="list-kategori">
+          <ul>
+            <li>Rp. 15.000</li>
+          </ul>
+        </nav>
+        
+        </article>
+      </a>
+      </div>
+    </div>
+
+    <div class="music-container">
+      <i class="fas fa-pause pause-button" onclick="pauseMusic()"></i> 
+      <i class="fas fa-play play-button" style="display: none;" onclick="playMusic()" ></i> 
+      <audio id="audio" src="assets/music/musicfile.mp3" type="audio/mpeg" autoplay></audio>
+    </div>
+
+    </main>
+    
+    <footer>
+      <p>Madara Healthy Drink &#169; 2024.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
