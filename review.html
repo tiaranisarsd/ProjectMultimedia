@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Madara Healthy Drink</title>
+    
+        <link rel="stylesheet" href="assets/styles/style.css" />
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Montserrat:wght@500..600&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+    <style>
+
+        html, body {
+            height: 100%; 
+            margin: 0; 
+        }
+
+        body {
+            display: flex;
+            flex-direction: column; 
+        }
+
+        footer {
+            text-align: center; 
+            padding: 10px 0;
+        }
+
+        main {
+    
+    display: block; 
+}
+
+.mySlides {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 350px;
+        margin-bottom: 20px;
+    }
+
+    .video-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+
+}
+
+    video {
+        display: block; 
+        margin: 0;
+        border-radius: 18px;
+        object-fit: cover;
+    }
+
+    .rating span {
+    color: gold; 
+    font-size: 20px;
+}
+
+.card {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    min-height: 200px; 
+    padding: 20px; 
+    margin: 10px 0;
+    border-radius: 8px; 
+    background-color: #e8f3e7; 
+}
+
+.card-content {
+    display: flex; 
+    flex-direction: row; 
+    width: 100%; 
+}
+
+.featured-image {
+    max-width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.text-content {
+    flex: 1; 
+}
+    </style>
+
+</head>
+<body>
+    <header class="navbar-container">
+        <div class="logo">
+            <img src="assets/image/logo.png" alt="KMIC" />
+        </div>
+        <div id="hamburger-btn">&#9776;</div>
+        <nav id="nav-list" class="nav-list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li>
+                    <a href="#">Lainnya <b>v</b></a>
+                    <ul class="dropdown">
+                      <li><a href="review.html">Review</a></li>
+                      <li><a href="index.html#About-Me">About Me</a></li>
+                      <li><a href="https://wa.me/6287872721210" target="_blank">Contact Me</a></li>
+                    </ul>
+                  </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="mySlides fade">
+            <div class="video-container">
+                <video width="20%" height="350" autoplay muted loop controls>
+                    <source src="assets/video/review1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="20%" height="350" autoplay muted loop controls>
+                    <source src="assets/video/review2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <article class="card">
+            <div class="card-content">
+                <img src="assets/image/profile1.png" alt="Profile" class="featured-image" style="border-radius: 50%; width: 50px; height: 50px;"/>
+                <div class="text-content">
+                    <h2>Anindra Putri L</h2>
+                    <div class="rating">
+                        <span>&#9733;</span> 
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span> 
+                    </div>
+                    <p style="text-align: justify;">Minuman ini sangat enak dan menyegarkan! Saya sangat menyukai rasa lemon dan serai yang berpadu dengan sempurna. Sangat cocok untuk dinikmati di siang hari yang panas.</p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="card">
+            <div class="card-content">
+                <img src="assets/image/profile2.png" alt="Profile" class="featured-image" style="border-radius: 50%; width: 50px; height: 50px;"/>
+                <div class="text-content">
+                    <h2>Bhimo Lanang P</h2>
+                    <div class="rating">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span> <!-- Semua bintang penuh -->
+                    </div>
+                    <p style="text-align: justify;">Bir Pletok ini luar biasa! Rasanya sangat khas dan memberikan kehangatan yang saya butuhkan. Saya pasti akan memesan lagi!</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-content">
+                <img src="assets/image/profile3.jpg" alt="Profile" class="featured-image" style="border-radius: 50%; width: 50px; height: 50px;"/>
+                <div class="text-content">
+                    <h2>Sulthan Ilham</h2>
+                    <div class="rating">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span> <!-- Semua bintang penuh -->
+                    </div>
+                    <p style="text-align: justify;">Minuman ini benar-benar menyegarkan! Rasa rempahnya sangat terasa dan memberikan sensasi yang unik. Saya sangat merekomendasikan untuk dicoba saat berkumpul dengan teman-teman.</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-content">
+                <img src="assets/image/profile4.png" alt="Profile" class="featured-image" style="border-radius: 50%; width: 50px; height: 50px;"/>
+                <div class="text-content">
+                    <h2>Tiaranisa Rabi'ah Sridewi</h2>
+                    <div class="rating">
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span>
+                        <span>&#9733;</span> <!-- Semua bintang penuh -->
+                    </div>
+                    <p style="text-align: justify;">Saya sangat terkesan dengan Bir Pletok ini! Kombinasi rasa yang kaya dan aroma yang menggoda membuatnya menjadi pilihan favorit saya. Sangat cocok untuk menemani waktu santai di sore hari.</p>
+                </div>
+            </div>
+        </article>
+
+        <div class="music-container">
+            <i class="fas fa-pause pause-button" onclick="pauseMusic()"></i> 
+            <i class="fas fa-play play-button" onclick="playMusic()" style="display: none;"></i> 
+            <audio id="audio" src="assets/music/musicfile.mp3" type="audio/mpeg" autoplay></audio>
+          </div>
+    </main>
+
+    <footer>
+        <p>Madara Healthy Drink &#169; 2024.</p>
+      </footer>
+      <script src="script.js"></script>
+    </body>
+</html>

@@ -70,3 +70,4 @@ function pauseMusic() {
   playButton.style.display = 'inline';
   pauseButton.style.display = 'none';
 }
+

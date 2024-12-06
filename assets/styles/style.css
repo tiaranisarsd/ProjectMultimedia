@@ -90,9 +90,9 @@ nav ul li a {
     position: absolute;
     border-radius: 8px;
     background-color: rgb(72, 156, 93);
-    max-width: 200px;
+    max-width: 300px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  }
+}
   
   .nav-list li:hover .dropdown {
     display: block; 
@@ -169,7 +169,7 @@ nav a:hover {
 
 .slideshow-container img,
 .slideshow-container video { 
-    height: 300px; 
+    height: 400px; 
     width: 100%; 
     object-fit: cover ; 
     border-radius: 18px;
@@ -564,5 +564,6 @@ main aside .social-media li a:hover {
     object-fit: contain;
 
 }
+
 
 }
